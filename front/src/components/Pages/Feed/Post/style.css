@@ -1,0 +1,48 @@
+.Post__current {
+    width: 100vw;
+    height: 100vh;
+    background-color: #CBCBCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+
+}
+.Post__current .Post__description {
+    padding-top: 100px;
+    clip-path: polygon(10% 10%, 100% 0, 100% 100%, 10% 100%);
+    background: #DDDDDD;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.Post__current .Post__title {
+    width: 80%;
+    font-family: Days One;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0.7em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    color: #FF963A;
+}
+.Post__current .Post__body {
+    width: 80%;
+    font-family: Consolas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 100%;
+    /* or 24px */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+}
